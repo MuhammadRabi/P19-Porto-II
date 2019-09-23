@@ -19,16 +19,7 @@ a {
 
 * {
     box-sizing: border-box;
-    font-family: 'Jura', sans-serif;
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-.center {
-    text-align: center
+    font-family: 'bree serif', sans-serif;
 }
 
 /* end global rules */
@@ -457,40 +448,21 @@ nav ul li a:hover:after {
 
 
 
-/* blog-area class works as .row in bootstrap*/
-.blog-area {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px
-}
 
 /* blog-item class functions as col-6 in bootstrap*/
 .blog-area .blog-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 1px solid #fff;
-    flex-basis: 38%;
-    margin: 10px;
     box-shadow: 2px 2px 7px 1px #EAEAEA;
     background: #fff
 }
 
-.blog-area .blog-item img {
-    width: 150px;
-    height: 350px;
-    flex-basis: 50%;
+.blog-item img {
+   
 }
-
-.blog-area .blog-item .img-details {
-    flex-basis: 43%;
-    position: relative
-}
-
 
 /* speech triangle bubble */
 
-.img-details:before {
+/*.img-details:before {
     content: "";
     display: block;
     width: 0;
@@ -500,26 +472,23 @@ nav ul li a:hover:after {
     position: relative;
     top: 35px;
     right: 47px
-}
+}*/
 
 .img-details h4,
 .img-details h6 {
-    padding: 0;
-    margin: 0
 }
 
-.blog-item .img-details p {
+.blog-item  p {
     font-size: 13px;
     line-height: 18px;
     color: #757575;
 }
 
-
-.blog-item {
+.blog-item .card{
     transition: 1s
 }
 
-.blog-item:hover {
+.blog-item .card:hover {
     background: black;
     color: #fff;
 }
