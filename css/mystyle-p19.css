@@ -1,10 +1,5 @@
 /* start global rules */
 
-.container {
-    width: 1200px;
-    margin: auto;
-}
-
 section {
     width: 100%;
     padding-top: 30px;
@@ -456,9 +451,7 @@ nav ul li a:hover:after {
     background: #fff
 }
 
-.blog-item img {
-   
-}
+.blog-item img {}
 
 /* speech triangle bubble */
 
@@ -475,16 +468,15 @@ nav ul li a:hover:after {
 }*/
 
 .img-details h4,
-.img-details h6 {
-}
+.img-details h6 {}
 
-.blog-item  p {
+.blog-item p {
     font-size: 13px;
     line-height: 18px;
     color: #757575;
 }
 
-.blog-item .card{
+.blog-item .card {
     transition: 1s
 }
 
@@ -496,40 +488,22 @@ nav ul li a:hover:after {
 /* start staff section */
 
 
-.staff-area {
-    display: flex;
-    justify-content: center;
-
-}
-
-.staff-area:nth-of-type(1) {
-    padding-top: 15px;
-
-}
 
 .staff-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: #fff;
-    margin-top: 20px;
-    flex-basis: 40%;
-    padding: 50px;
+    margin-top: 10px;
+    padding: 15px;
     border: 0.5px solid #EEEEEE;
     border-radius: 5px
 }
 
 
 
-.staff-box .staff-avatar {
-    flex-basis: 20%
-}
-
 .staff-box .staff-avatar img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
 }
 
@@ -549,8 +523,16 @@ nav ul li a:hover:after {
     background: #40C4FF;
 }
 
-.staff-details {
-    flex-basis: 80%
+
+
+
+@media(max-width:576px) {
+    .staff-details {
+        padding-right:
+    }
+
+
+
 }
 
 .staff-details h4,
@@ -575,33 +557,6 @@ nav ul li a:hover:after {
     line-height: 18px;
     color: #757575;
 }
-
-
-/* responsive framework trial #01 */
-
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: space-around
-}
-
-.col-3 {
-    flex-basis: 24%
-}
-
-.col-4 {
-    flex-basis: 32.3%
-}
-
-.col-6 {
-    flex-basis: 48%
-}
-
-.col-12 {
-    flex-basis: 96%
-}
-
-/* end responsive framework trial #01 */
 
 
 footer {
